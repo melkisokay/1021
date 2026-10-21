@@ -58,7 +58,7 @@ function draw () {
 
   brushSize = map(rightTrigger - leftTrigger, -1, 1, 1, 30);
 
-  brushSize = constrain(brushSize 1, 30);
+  brushSize = constrain(brushSize, 1, 30);
 
   handleButtons(gp);
 }
