@@ -79,11 +79,11 @@ function handleButtons (gp) {
         case 1:
           background(240);
           break;
-        //x
+        //Y
         case 2:
           rainbow = !rainbow;
           break;
-        //Y
+        //X
         case 3:
           saveCanvas('etch_gp', 'png');
       }
