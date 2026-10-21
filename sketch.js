@@ -17,7 +17,7 @@ function setup () {
 
   drawColor = color(0);
   strokeWeight(brushSize);
-  textAligm(CENTER, CENTER);
+  textAlign(CENTER, CENTER);
 }
 
 function draw () {
